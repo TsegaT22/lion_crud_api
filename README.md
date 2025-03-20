@@ -28,6 +28,7 @@ Gets a list of all the lions in the database.
 
 /{lionId} (GET)
 Fetches the I.D of lion in the database.
+
 {
     "lionId": 8888,
     "name": "Grace",
@@ -38,6 +39,7 @@ Fetches the I.D of lion in the database.
 
 /name (GET)
 Fetches the searched name of the lion in the database.
+
 {
         "lionId": 8890,
         "name": "Hana",
@@ -48,6 +50,7 @@ Fetches the searched name of the lion in the database.
 
 /country/{country} (GET)
 Fetches lions from searched country in the database.
+
 {
         "lionId": 8891,
         "name": "pilipili",
@@ -57,6 +60,7 @@ Fetches lions from searched country in the database.
     }
 /old (GET)
 Fetches lions who are considered old in the database.
+
 {
         "lionId": 8890,
         "name": "Hana",
@@ -67,6 +71,7 @@ Fetches lions who are considered old in the database.
 
 /new (POST)
 Adds a new lion to the database.
+
  {
         "lionId": 8892,
         "name": "Natasha",
@@ -76,13 +81,16 @@ Adds a new lion to the database.
     }
 /update (PUT)
 Updates the information of a lion in the database.
+{
 "lionId": 8890,
         "name": "Hana",
         "description": "This lion is in rehabilitation.",
         "age": 10,
         "country": "Ethiopia"
+        }
 /delete (DELETE)
 Deletes a lion in the database.
+
 {
         "lionId": 8890,
         "name": "Hana",
