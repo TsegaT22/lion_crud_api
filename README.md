@@ -58,6 +58,7 @@ Fetches lions from searched country in the database.
         "age": 1,
         "country": "Zimbabwe"
     }
+    
 /old (GET)
 Fetches lions who are considered old in the database.
 
@@ -79,8 +80,10 @@ Adds a new lion to the database.
         "age": 5,
         "country": "India"
     }
+    
 /update (PUT)
 Updates the information of a lion in the database.
+
 {
 "lionId": 8890,
         "name": "Hana",
@@ -88,6 +91,7 @@ Updates the information of a lion in the database.
         "age": 10,
         "country": "Ethiopia"
         }
+        
 /delete (DELETE)
 Deletes a lion in the database.
 
